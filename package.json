@@ -1,0 +1,26 @@
+{
+  "name": "flexy-refresh",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".prettierrc.js",
+  "bin": {
+    "flexy-refresh": "bin/flexy-refresh.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flexy-design/flexy-refresh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/flexy-design/flexy-refresh/issues"
+  },
+  "homepage": "https://github.com/flexy-design/flexy-refresh#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1"
+  }
+}
