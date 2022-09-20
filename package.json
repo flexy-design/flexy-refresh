@@ -1,10 +1,11 @@
 {
   "name": "flexy-refresh",
   "version": "1.0.0",
-  "description": "",
+  "description": "Provides the flexy-refresh command.",
   "bin": {
     "flexy-refresh": "bin/flexy-refresh.js"
   },
+  "license": "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +14,7 @@
     "url": "git+https://github.com/flexy-design/flexy-refresh.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "blackMoja",
   "bugs": {
     "url": "https://github.com/flexy-design/flexy-refresh/issues"
   },
