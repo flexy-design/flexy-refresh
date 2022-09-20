@@ -2,7 +2,6 @@
   "name": "flexy-refresh",
   "version": "1.0.0",
   "description": "",
-  "main": ".prettierrc.js",
   "bin": {
     "flexy-refresh": "bin/flexy-refresh.js"
   },
@@ -18,9 +17,5 @@
   "bugs": {
     "url": "https://github.com/flexy-design/flexy-refresh/issues"
   },
-  "homepage": "https://github.com/flexy-design/flexy-refresh#readme",
-  "dependencies": {
-    "axios": "^0.27.2",
-    "chalk": "^5.0.1"
-  }
+  "homepage": "https://github.com/flexy-design/flexy-refresh#readme"
 }
