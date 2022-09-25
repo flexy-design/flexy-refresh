@@ -2,21 +2,30 @@
   "name": "flexy-refresh",
   "version": "1.0.0",
   "description": "Provides the flexy-refresh command.",
+  "scripts": {
+    "start": "npm run build && ([ -d test-e2e ] || mkdir test-e2e) && cd test-e2e && node ../bin/flexy-refresh",
+    "build": "rm -rf dist && tsc",
+    "release": "npm run build && release-it"
+  },
   "bin": {
     "flexy-refresh": "bin/flexy-refresh.js"
   },
   "license": "MIT",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/flexy-design/flexy-refresh.git"
   },
   "keywords": [],
-  "author": "blackMoja",
+  "author": "flexy-design",
   "bugs": {
     "url": "https://github.com/flexy-design/flexy-refresh/issues"
   },
-  "homepage": "https://github.com/flexy-design/flexy-refresh#readme"
+  "homepage": "https://github.com/flexy-design/flexy-refresh#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.21"
+  }
 }
